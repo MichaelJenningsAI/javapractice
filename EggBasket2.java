@@ -23,5 +23,7 @@ public class EggBasket2 {
         System.out.println(eggsPerBasket + " eggs per basket and");
         System.out.println(numberOfBaskets + " baskets.");
         System.out.println("The new total number of eggs is " + totalEggs);
+        char symbol = '7';
+        System.out.println((int)symbol);
     }
 }
