@@ -10,5 +10,6 @@ public class SmsCost {
         numOfMessages = keyboard.nextInt();
         outputCost = SETUPCOST + (UNITCOST * numOfMessages);
         System.out.println("The total cost of your phone plan is : $" + outputCost);
+        System.out.println("Testing commit");
     }
 }
