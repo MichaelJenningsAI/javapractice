@@ -23,8 +23,9 @@ public class Salary2 {
 
         double lastYearSalary, currentYearSalary, payIncrement, weeklySalary;
         int weeklySalaryRemainder;
-        
+
         System.out.println("Please Input Last Year Salary:");
+
         lastYearSalary = keyboard.nextInt();
 
         System.out.println("Please Input Increment Increase %:");
