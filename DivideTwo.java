@@ -13,8 +13,11 @@ public class DivideTwo
 		numerator = keyboard.nextInt();
 		System.out.print("Enter the denominator: ");
 		denominator = keyboard.nextInt();
-
-		System.out.print(numerator + "/" + denominator + " = ");
-		System.out.println((double) numerator/denominator);
+		if (denominator != 0){
+				System.out.print(numerator + "/" + denominator + " = ");
+				System.out.println((double) numerator/denominator);
+		}
+		else
+			System.out.println("You cannot divide by zero!!!");
 	}
 }
